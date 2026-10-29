@@ -1,5 +1,7 @@
 # pyxpo-drawing-canvas
 
+[![CI](https://github.com/pyxpo/pyxpo-drawing-canvas/actions/workflows/ci.yml/badge.svg)](https://github.com/pyxpo/pyxpo-drawing-canvas/actions/workflows/ci.yml) [![PyPI](https://img.shields.io/pypi/v/pyxpo-drawing-canvas)](https://pypi.org/project/pyxpo-drawing-canvas/) [![Python](https://img.shields.io/pypi/pyversions/pyxpo-drawing-canvas)](https://pypi.org/project/pyxpo-drawing-canvas/) [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 A finger and pen drawing surface for [pyxpo](https://github.com/pyxpo/pyxpo) apps written in Python, with undo, redo,
 clear, a pen and an eraser, and export to PNG or JPEG. iOS draws with Core Graphics (Apple Pencil works like a finger),
 Android with `android.graphics.Canvas`, and the web and the desktop window with an HTML canvas. Every platform uses the
